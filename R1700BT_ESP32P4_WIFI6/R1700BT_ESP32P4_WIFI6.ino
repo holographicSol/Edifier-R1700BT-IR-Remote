@@ -47,7 +47,8 @@
  * ── VOLUME SYSTEM ─────────────────────────────────────────────────────────
  *   VOL_MAX_STEPS = 100, VOL_STEP_DELAY = 1ms (confirmed working)
  *   Always calibrate ('c') on first use or after power cycling the speaker.
- *   After calibration, numeric entry and setVolume() use fast relative steps.
+ *   After calibration, numeric entry and setVolume() use fast relative steps,
+ *   alternatively, vol +/- can be used to step incrementally without calibration.
  * ─────────────────────────────────────────────────────────────────────────
  */
 
